@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireRedis.AppHost", "AspireRedis.AppHost\AspireRedis.AppHost.csproj", "{051248AA-CA49-4410-9EA9-35EF3E0BBAB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireRedis.ServiceDefaults", "AspireRedis.ServiceDefaults\AspireRedis.ServiceDefaults.csproj", "{B05D54B7-5B7C-4886-A65A-05022B0CEB46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireRedis.ApiService", "AspireRedis.ApiService\AspireRedis.ApiService.csproj", "{EE45B275-B6FB-4EAE-B813-E3AD5A63E883}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireRedis.Web", "AspireRedis.Web\AspireRedis.Web.csproj", "{3C61DC03-C717-40DA-A89B-FF0A3B94B0EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{051248AA-CA49-4410-9EA9-35EF3E0BBAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051248AA-CA49-4410-9EA9-35EF3E0BBAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051248AA-CA49-4410-9EA9-35EF3E0BBAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051248AA-CA49-4410-9EA9-35EF3E0BBAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05D54B7-5B7C-4886-A65A-05022B0CEB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05D54B7-5B7C-4886-A65A-05022B0CEB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05D54B7-5B7C-4886-A65A-05022B0CEB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05D54B7-5B7C-4886-A65A-05022B0CEB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE45B275-B6FB-4EAE-B813-E3AD5A63E883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE45B275-B6FB-4EAE-B813-E3AD5A63E883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE45B275-B6FB-4EAE-B813-E3AD5A63E883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE45B275-B6FB-4EAE-B813-E3AD5A63E883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C61DC03-C717-40DA-A89B-FF0A3B94B0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C61DC03-C717-40DA-A89B-FF0A3B94B0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C61DC03-C717-40DA-A89B-FF0A3B94B0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C61DC03-C717-40DA-A89B-FF0A3B94B0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7949EB49-E62B-4ED6-A8F9-1E5A2AEB4008}
+	EndGlobalSection
+EndGlobal
